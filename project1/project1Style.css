@@ -1,0 +1,369 @@
+body{
+	width: 1280px;
+	margin:auto;
+	height: 100%;
+	margin-top: 0;
+	font-family: sans-serif;
+}
+
+#toppart a {
+	text-decoration: none;
+	color: black;
+}
+#topPart{
+	width: 1280px;
+	
+	background-size: cover;
+	min-height: 720px;
+}
+#navbar{
+
+	margin-top: 0;
+	padding-top: 1px;
+	padding-bottom: 1px;
+
+}
+#toplogo{
+	float: left;
+	padding:20px;
+	width: 200px;
+	margin-left: 10px;
+}
+#topSearchbox{
+	float:right;
+	margin-right: 40px ;
+	width: 150px;
+	margin-top: 23px;
+
+
+}
+#navbar ul{
+	padding-top: 10px;
+}
+#navbar li{
+	font-weight: bold;
+	display: inline;
+	margin-right: 3%;
+
+}
+li#first{
+	margin-left: 440px;
+}
+#navbar li#last{
+	margin-right: 2px;
+}
+header h1{
+	line-height: 150%;
+	font-weight: bold ;
+	margin-top: 540px;
+	color: white;
+	text-align: left;
+	margin-left: 40px;
+
+}
+#forhidden{
+	display: none;
+}
+#secondpart{
+	margin-top: 50px;
+	margin-bottom: 70px;
+}
+#secondpart h2{
+	text-align: center;
+}
+#secondpart table{
+	margin-top: 50px;
+	width: 100%;
+}
+#secondpart #icon{
+	height: 150px;
+	margin-bottom: 10px;
+}
+#secondpart table td{
+	text-align: center;
+	font-size: 25px;
+}
+#aboutus{
+	background-image: url(images/2.jpg);
+	background-size: cover;
+	height: 720px;
+}
+#aboutus h3{
+	text-align: center;
+	padding-top: 50px;
+}
+#aboutus #text{
+	background: rgb(255,255,255,0.4);
+	height: 720px;
+	text-align: justify;
+	width: 50%;
+	line-height: 200%;
+	font-size: 30px;
+}
+#aboutus p{
+	margin-left: 40px;
+	padding-right: 30px;
+}
+#footer{
+	clear: both;
+}
+#footer #footerlogo{
+	height: 50px;
+	float: left;
+	margin:50px;
+	padding-bottom: 0px;
+	margin-right: 70px;
+	
+}
+#footer div{
+	font-size: 15px;
+	padding-top: 20px;
+	margin-right: 50px;
+	margin-left: 50px;
+	text-align: justify;
+	margin-bottom: 30px;
+}
+#footer #copyright{
+	background-color: yellow;
+	text-align: center;
+	width: 100%;
+	padding: 10px;
+	clear: both;
+}
+#footer ul{
+	margin-bottom: 20px;
+}
+#footer li{
+	font-size: 25px;
+	display: inline;
+	
+}
+#footer li#firstfooter{
+	margin-right:230px;
+}
+#footer a{
+	text-decoration: none;
+}
+@media (max-width: 1280px){
+	body{
+	width: 480px;
+	margin:auto;
+	height: 100%;
+	margin-top: 0;
+	font-family: sans-serif;
+	}
+	#topPart{
+		width: 480px;
+		background-image:url( "images/3.jpg");
+		
+		background-position: center;
+		height: 400px;
+	}
+	#navbar{
+
+		margin-top: 0;
+		padding-top: 1px;
+		padding-bottom: 1px;
+
+	}
+	#toplogo{
+		width: 200px;
+		
+	}
+	#topSearchbox{
+		visibility: hidden;
+	}
+	#navbar ul{
+		text-align: left;
+		clear: both;
+		padding-top: 10px;
+	}
+	#navbar li{
+		font-size: 15px;
+		font-weight: bold;
+		display: inline;
+		margin-right: 3%;
+
+	}
+	li#first{
+		margin-left: 0px;
+	}
+	#navbar li#last{
+		margin-right: 2px;
+	}
+	header h1{
+		line-height: 150%;
+		font-weight: bold ;
+		margin-top: 480px;
+		color: white;
+		text-align: center;
+		margin-left: 0px;
+
+	}
+	#forhidden{
+	display: block;
+
+	}
+	#forhidden #icon{
+		height: 150px;
+		margin-bottom: 10px;
+		margin-left: 167px;
+		margin-right: auto;
+	}
+	#forhidden h2{
+		text-align: center;
+	}
+	#forhidden h3{
+		text-align: center;
+	}
+	#secondpart{
+		display:none;
+		margin-top: 50px;
+		margin-bottom: 70px;
+	}
+	#secondpart h2{
+		text-align: center;
+	}
+	#secondpart table{
+		margin-top: 50px;
+		width: 100%;
+	}
+	#secondpart #icon{
+		height: 150px;
+		margin-bottom: 10px;
+	}
+	#secondpart table td{
+		text-align: center;
+		font-size: 25px;
+	}
+	#aboutus{
+		background-image: url(images/4.jpg);
+		background-size: cover;
+		height: 720px;
+	}
+	#aboutus h3{
+		text-align: center;
+		padding-top: 50px;
+	}
+	#aboutus #text{
+		background: rgb(255,255,255,0.4);
+		height: 720px;
+		text-align: justify;
+		width: 100%;
+		line-height: 200%;
+		font-size: 26px;
+	}
+	#aboutus p{
+		margin-left: 40px;
+		padding-right: 30px;
+	}
+	#footer #footerlogo{
+		height: 50px;
+		
+		margin:50px;
+		padding-bottom: 0px;
+		margin-left: 110px;
+		
+	}
+	#footer div{
+		font-size: 15px;
+		padding-top: 20px;
+		margin-right: 20px;
+		margin-left: 20px;
+		text-align: justify;
+		margin-bottom: 30px;
+	}
+	#footer #copyright{
+		background-color: yellow;
+		text-align: center;
+		width: 100%;
+		padding: 10px;
+		clear: both;
+	}
+	#footer ul{
+		text-align: center;
+		margin-bottom: 20px;
+	}
+	#footer li{
+		font-size: 25px;
+		display: list-item;
+		list-style-type: none;
+	}
+	#footer li#firstfooter{
+		margin-right:10px;
+		margin-bottom: 20px;
+	}
+	#footer a{
+		text-decoration: none;
+	}
+	
+}
+#map {
+  height: 400px;  /* The height is 400 pixels */
+  width: 100%;  /* The width is the width of the web page */
+ }
+#mapsection{
+	padding-top: 40px;
+	text-align: center;
+}
+#mapsection img{
+	width:70px;
+}
+#phonenumber{
+	width: 50%;
+	float: left;
+	margin-top: 50px;
+	text-align: center;
+	background-color: #f1f1f1;
+	padding-bottom: 20px;
+	margin-right: 30px;
+}
+#phonenumber img{
+	padding-top: 40px;
+	width: 50px;
+}
+#phonenumber #phonetable {
+	width: 100%;
+	border: 1px solid black;
+}
+#phonenumber #phonetable th{
+	background-color: yellow;
+	border: 1px solid black;
+}
+#phonenumber #phonetable td{
+	background-color: white; 
+	border: 1px solid black;
+}
+#form{
+
+	padding-top: 50px;
+	text-align: left;
+}
+#form .floatleft{
+	float:left;
+	margin-right: 20px;
+}
+#form h2{
+	text-align: center;
+}
+#form form{
+	line-height: 160%;
+	
+}
+#form .textinput{
+	width: 330px;
+	height: 30px;
+}
+#form #submit{
+	margin-top:20px;
+	text-align: center;
+	height: 40px;
+	width: 100px;
+	background-color: yellow;
+}
+@media (max-width: 1280px){
+	#phonenumber{
+		width: 100%;
+		float:none;
+	}
+}
